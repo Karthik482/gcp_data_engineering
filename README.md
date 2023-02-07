@@ -1,4 +1,4 @@
-# gcp_data_engineering
+# youtube_views_dataengineering_project
 
 This repository contains two python scripts that demonstrate how to analyze YouTube data using the YouTube Data API and Apache Beam. The two scripts are:
 
