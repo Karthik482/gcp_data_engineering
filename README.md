@@ -2,7 +2,7 @@
 
 This repository contains two python scripts that demonstrate how to analyze YouTube data using the YouTube Data API and Apache Beam. The two scripts are:
 
-youtubeapi.py: This script demonstrates how to retrieve YouTube data using the YouTube Data API. The script retrieves the data for a particular channel and writes the results to a pubsub topic.
+youtubeapi.py: This script demonstrates how to retrieve YouTube data using the YouTube Data API. The script retrieves the data which include artist name, latest album title, latest album view count for each day for the 30 days from the day album was published in youtube for a particular channel and writes the results to a pubsub topic.
 
 beam.py: This script demonstrates how to process and analyze the YouTube data using Apache Beam. The script reads the data from a Pub/Sub subscription, processes the data to extract, group, and format the data, and finally writes the processed data to a BigQuery table.
 
